@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import styles from '../../styles/Pokemon.module.css'
+import styles from '../../styles/pokemon.module.css'
 
 export const getStaticPaths = async () => {
     const maxPok = 256;
