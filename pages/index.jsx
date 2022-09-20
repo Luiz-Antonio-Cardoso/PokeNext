@@ -23,11 +23,11 @@ export async function getStaticProps() {
 export default function Home({ pokemons }) {
   return (
     <main className={styles.container}>
-      <div className={styles.titleContainer}>
+      <div className={styles.title_container}>
         <h1>Poke<span>Next</span></h1>
         <Image src={`/images/pokeball.png`} height={`50px`} width={`50px`}></Image>
       </div>
-      <div className={styles.pokeConteinar}>
+      <div className={styles.poke_conteinar}>
         {
           pokemons.map((element) =>(
             <Card key={element.id} pokemon={element}/>

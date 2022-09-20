@@ -1,4 +1,4 @@
-.pokemonContainer {
+.pokemon_container {
   text-align: center;
 }
 .title {
@@ -10,11 +10,11 @@
   margin: 0.8rem auto;
   width: fit-content;
 }
-.pokemonContainer h3 {
+.pokemon_container h3 {
   margin: 0.6rem auto;
   font-size: 1.2rem;
 }
-.typesContainer {
+.types_container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,14 +100,14 @@
 .type_fairy {
   background-color: #e9e;
 }
-.dataContainer{
+.data_container{
     margin-top: .5rem;
     display: flex;
     align-items: center;
     justify-content: center;    
 }
 
-.dataContainer div{
+.data_container div{
     margin: 1rem 0 ;
     padding: 0 1rem;
     display: flex;
@@ -115,6 +115,6 @@
     align-items: center;
     flex-direction: column;
 }
-.dataHeight{
+.data_height{
     border-right: 1px solid #ccc ;
 }

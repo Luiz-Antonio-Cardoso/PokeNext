@@ -16,15 +16,15 @@
 .logo h1{
     margin-left: .5rem;
 }
-.linkItems {
+.link_items {
     display: flex;
     list-style: none;
 
 }
-.linkItems li {
+.link_items li {
     margin-right: 1.3rem;
 }
-.linkItems a{
+.link_items a{
     color: #fff;
     text-decoration: none;
     padding: 5px;
@@ -32,6 +32,6 @@
     border-bottom: 2px solid transparent;
     z-index: 10;
 }
-.linkItems a:hover{
+.link_items a:hover{
     border-bottom: 2px solid #fff;
 }

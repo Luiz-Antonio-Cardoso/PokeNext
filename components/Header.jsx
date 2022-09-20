@@ -12,7 +12,7 @@ export default function Header(){
                     <h1>Pokenext</h1>
                 </div>
                 
-                <ul className={styles.linkItems}>
+                <ul className={styles.link_items}>
                     <li><Link href="/"><a > Home</a></Link></li>
                     <li><Link href="/about"><a >About </a></Link></li>
                 </ul>
