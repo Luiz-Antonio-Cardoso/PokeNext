@@ -1,9 +1,10 @@
 import Image from "next/image";
+import {useRouter} from 'next/router'
 
 import styles from '../../styles/Pokemon.module.css'
 
 export const getStaticPaths = async () => {
-    const maxPok = 10000;
+    const maxPok = 256;
     const api = "https://pokeapi.co/api/v2/pokemon";
   
     const res = await fetch(`${api}?limit=${maxPok}`);
@@ -17,7 +18,7 @@ export const getStaticPaths = async () => {
     })
     return {
         paths,
-        fallback: false 
+        fallback: true, 
     } 
    
   }
@@ -35,6 +36,10 @@ export const getStaticProps = async (contex) => {
 export default function Pokemon({pokemon}){
     const src = `https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`;
 
+    const router = useRouter();
+    if(router.isfallback){
+        return <div> Carregando... </div>
+    }
 
     return(
         <div className={styles.pokemon_container}>
