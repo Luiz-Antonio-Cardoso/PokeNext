@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import styles from '../../styles/pokemon.module.css'
+import styles from '../../styles/Pokemon.module.css'
 
 export const getStaticPaths = async () => {
-    const maxPok = 256;
+    const maxPok = 10000;
     const api = "https://pokeapi.co/api/v2/pokemon";
   
     const res = await fetch(`${api}?limit=${maxPok}`);
