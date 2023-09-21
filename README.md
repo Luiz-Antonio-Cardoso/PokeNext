@@ -1,1 +1,1 @@
-(./meu.png)
+<img src="./meu.png">
