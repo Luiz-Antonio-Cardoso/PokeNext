@@ -1,3 +1,10 @@
+III  I  I    I  IIIIIII  IIII
+I I  I  II   I     I     I  I
+III  I  I I  I     I     I  I
+I    I  I  I I     I     I  I
+I    I  I   II     I     IIII
+
+
 ……..…../´¯/)……….. (\¯`\
 …………/….//……….. …\\….\
 ………../….//………… ….\\….\
